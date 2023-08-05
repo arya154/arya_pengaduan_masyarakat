@@ -7,7 +7,7 @@
     $telp = $_POST['telp'];
  
 
-    $database = new PDO("mysql:host=localhost;dbname=pengaduan_masyarakat", 'root', '');
+    $database = new PDO("mysql:host=localhost;dbname=pengaduan_masyarakat", 'root', '999');
     $query = $database->query("INSERT INTO masyarakat values('$nik','$nama',$username','$password,'$telp')");
     
 

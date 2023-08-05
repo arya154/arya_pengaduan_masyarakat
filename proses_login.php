@@ -13,4 +13,3 @@ if($data){
 }else{
     header("location:login.php");
 }
-    
